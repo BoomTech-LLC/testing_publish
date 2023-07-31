@@ -1,0 +1,15 @@
+
+
+.wrapper{
+    background-color: red;
+}
+
+.wrapper form div[class*="boomForm-fields"]{
+    background-color: aqua;
+}
+.wrapper form div[class*="boomForm-fields"] div[class*="boomForm-field__content"] div[class*="boomForm-scaleRating__content"] div[class*="boomForm-scaleRating-option__content"] input{
+
+    width: var(--cssVariable,100px);
+    height: 100px;
+}
+
